@@ -17,5 +17,5 @@ class Doctor
   end 
   
   def appppointments
-    Appointment
+    Appointment.all.select
 end  
