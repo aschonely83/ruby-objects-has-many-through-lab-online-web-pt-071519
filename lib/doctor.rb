@@ -18,4 +18,5 @@ class Doctor
   
   def appppointments
     Appointment.all.select {|appppointment| appppointment.doctor == self }
+  end  
 end  
