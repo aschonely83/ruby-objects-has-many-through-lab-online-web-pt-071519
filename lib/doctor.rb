@@ -12,7 +12,7 @@ class Doctor
     @@all
   end
   
-  def appointments
+  def appointments(patient, date)
     
   end  
 end  
