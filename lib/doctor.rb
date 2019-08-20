@@ -17,5 +17,5 @@ class Doctor
   end 
   
   def appppointments
-    Appointment.all.select{
+    Appointment.all.select {|appppointment| 
 end  
